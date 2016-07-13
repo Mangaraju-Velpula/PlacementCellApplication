@@ -24,7 +24,7 @@ public class s3buketAccessforresults {
     TextView textView;
     public s3buketAccessforresults(Context con){
         context=con;
-        BasicAWSCredentials awsCreds = new BasicAWSCredentials("AKIAJTII7XMBBG7CXCDA", "9blTMHZjsrgN2UjhMuWJ6rbMsZlEjxAsHPhdnvqf");
+        BasicAWSCredentials awsCreds = new BasicAWSCredentials("Access Key", "Secret Key");
         client = new AmazonS3Client(awsCreds);
     }
     public void s3resultscalling(){
