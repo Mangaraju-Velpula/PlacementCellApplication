@@ -25,7 +25,7 @@ public class s3bucketAcess {
     TextView textView;
     public s3bucketAcess(Context con){
         context=con;
-        BasicAWSCredentials awsCreds = new BasicAWSCredentials("AKIAJTII7XMBBG7CXCDA", "9blTMHZjsrgN2UjhMuWJ6rbMsZlEjxAsHPhdnvqf");
+        BasicAWSCredentials awsCreds = new BasicAWSCredentials("Access key", "Secret Key");
          client = new AmazonS3Client(awsCreds);
     }
 
