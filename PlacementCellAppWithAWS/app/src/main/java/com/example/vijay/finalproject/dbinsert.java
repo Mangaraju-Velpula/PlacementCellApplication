@@ -33,7 +33,7 @@ public class dbinsert {
     public int bit=0;
     public dbinsert(Context c) {
         context=c;
-        BasicAWSCredentials awsCreds = new BasicAWSCredentials("AKIAJTII7XMBBG7CXCDA", "9blTMHZjsrgN2UjhMuWJ6rbMsZlEjxAsHPhdnvqf");
+        BasicAWSCredentials awsCreds = new BasicAWSCredentials("Access Key", "Secret Key");
         client = new AmazonDynamoDBClient(awsCreds);
         client.setRegion(Region.getRegion(Regions.US_WEST_1));
     }
